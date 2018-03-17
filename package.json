@@ -10,7 +10,8 @@
   "author": "Michael Heap <m@michaelheap.com>",
   "license": "MIT",
   "build": {
-    "appId": "com.michaelheap.sysadvent"
+    "appId": "com.michaelheap.sysadvent",
+    "target": "pacman"
   },
   "scripts": {
     "start": "electron main.js",
