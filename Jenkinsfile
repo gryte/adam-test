@@ -1,4 +1,7 @@
 node {
   checkout scm
-  sh 'npm install'
+
+  withNPM(npmrcConfig: 'my-custom-nprc') {
+    sh 'npm install'
+  }
 }
