@@ -10,8 +10,7 @@
   "author": "Michael Heap <m@michaelheap.com>",
   "license": "MIT",
   "build": {
-    "appId": "com.michaelheap.sysadvent",
-    "category": "app.category.type"
+    "appId": "com.michaelheap.sysadvent"
   },
   "scripts": {
     "start": "electron main.js",
