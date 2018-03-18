@@ -12,8 +12,12 @@
   "build": {
     "appId": "com.michaelheap.sysadvent",
     "linux": {
-      "target": "tar.gz"
-    },
+      "target": [
+        "deb",
+        "zip",
+        "AppImage"
+        ]
+    }
   },
   "scripts": {
     "start": "electron main.js",
