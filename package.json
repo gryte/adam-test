@@ -11,7 +11,9 @@
   "license": "MIT",
   "build": {
     "appId": "com.michaelheap.sysadvent",
-    "target": "pacman"
+    "linux": {
+      "target": "tar.gz"
+    },
   },
   "scripts": {
     "start": "electron main.js",
