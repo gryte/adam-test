@@ -12,11 +12,7 @@
   "build": {
     "appId": "com.michaelheap.sysadvent",
     "linux": {
-      "target": [
-        "deb",
-        "zip",
-        "AppImage"
-        ]
+      "target": "zip"
     }
   },
   "scripts": {
